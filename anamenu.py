@@ -31,4 +31,3 @@ def anamenu():
         
 anamenu()
 
-
