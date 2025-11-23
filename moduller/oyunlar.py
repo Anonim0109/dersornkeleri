@@ -23,6 +23,7 @@ if secim =="1":
 if secim =="2":
     import oyunlar.macera
     oyunlar.macera.oyunmenu()
+input()
 
     
 
