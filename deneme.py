@@ -1,0 +1,7 @@
+def selamla(kim):
+    print("Selam", kim)
+    print("Nasılsın")
+
+
+selamla("Bartu")
+selamla("Emir")
