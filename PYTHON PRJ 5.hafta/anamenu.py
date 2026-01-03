@@ -38,5 +38,6 @@ def anamenu():
         moduller.carpımtablosu.tablomanu()
         
     if secim =="8": exit()
+    anamenu()
         
 anamenu()

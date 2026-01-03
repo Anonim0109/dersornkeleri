@@ -1,0 +1,5 @@
+dosya=open("rehber.dat","a")
+print("Kayıt Ekranı")
+ad=input("ad giriniz:")
+nu=input("telefon giriniz")
+dosya.write(f"\n{ad}#{nu}")

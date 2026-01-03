@@ -1,29 +1,28 @@
+puan = 100
+
+# Sorular ve doğru cevaplar
 sorular = [
-    "Fransa'nın başkenti neresidir?",
-    "İzmir'in plakası kaçtır?",
-    "Tüplerde ne gazı bulunur?",
-]
-cevaplar = [
-    "Paris",
-    "35",
-    "propan",
+    ("Fransa'nın başkenti neresi? ", ["paris"]),
+    ("İzmir'in plakası ne? ", ["35"]),
+    ("Tüplerde ne gazı bulunur? ", ["lpg", "propan", "bütan", "propan-bütan"])
 ]
 
+for soru, dogru_cevaplar in sorular:
+    cevap = input(soru).strip().lower()
+    
+    if cevap in dogru_cevaplar:
+        print("Doğru cevap!.")
+    else:
+        puan -= 30
+        print("Yanlış cevap! -30 puan.")
 
-sorulanlar =[]
-devam ="Evet"
-puan = 0
-import random
-while devam.lower() in ["evet","e","evt"]:
-    soruno = random.randint(0,len(sorulanlar))
-    if soruno not in sorulanlar:
-        sorulanlar.append(soruno)
-        cevap = input(sorular[soruno])
-        if cevap.lower == cevaplar[soruno]:
-            puan += 100/len(sorulanlar)
-            print("bildin, puanın:",puan)
-           
-        else:
-            print("bilemedin")
-            puan = 100/len(sorulanlar)
-            print("bildin, puanın:",puan)
+    print("Güncel puan:", puan)
+    print("-" * 30)
+
+print("Oyun bitti.")
+print("Final puanın:", puan)
+
+if puan < 50:
+   print("Çalışman lazım...")
+
+input()
