@@ -1,0 +1,19 @@
+def hesapmenu():
+    print("╔═════════════════════╗")
+    print("║     Hesaplama APP   ║") 
+    print("╠═════════════════════╣")
+    print("║  1-Toplama          ║")
+    print("║  2-Çıkarma          ║")
+    print("║  3-çarpma           ║")
+    print("║  4-bölme            ║")
+    print("║  5-                 ║")
+    print("║  6-                 ║")
+    print("║  7-                 ║")
+    print("║  8-                 ║")
+    print("║  9-Çıkış            ║")
+    print("║                     ║")
+    print("║    Seçin?           ║")
+    print("╚═════════════════════╝")
+    secim = input()
+
+
