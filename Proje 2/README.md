@@ -19,3 +19,9 @@ Veriler rehber.txt dosyasında saklanır
 Python 3
 VS Code
 PyInstaller
+
+-İlk ekranda 1. ye basarsanız eklemek istediğiniz ad, tel no ve parasını eklersiniz.
+-İlk ekranda 2.ye basarsanız ıkayıtlı olanları görürsünüz.
+-İlk ekranda 3.ye basarsanız kayıdı ararsınız.
+-İlk ekranda 4.ye basarsanız bilgilerini girdiğiniz kişiyi ve bilgilerini silersiniz.
+-İlk ekranda 5.ye basarsanızz bilgilerni girdiğiniz kişinin bilgilerini yeniden güncellersiniz
